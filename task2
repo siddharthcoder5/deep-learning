@@ -1,0 +1,65 @@
+NAME-Siddharth Sharma 
+company-Codetech It Solution 
+Intern ID-CT6WEUR 
+Domain-Data science 
+Duration-December 2024 to February 2025
+description of my deep learning project 
+Key Steps in the Project
+Data Loading:
+
+The CIFAR-10 dataset is loaded, which is a common benchmark dataset for image classification tasks.
+Data Preprocessing:
+
+Normalized image pixel values to range [0, 1].
+Labels were converted into one-hot encoding to represent them as vectors.
+Model Design:
+
+Built a Convolutional Neural Network (CNN) architecture:
+Convolutional layers extract features like edges, textures, and shapes.
+MaxPooling layers downsample the feature maps to reduce dimensions.
+A Dense (fully connected) layer processes the high-level features for classification.
+A Dropout layer prevents overfitting by randomly deactivating neurons during training.
+Training and Validation:
+
+The model is trained on the training dataset.
+The validation set monitors the model's performance on unseen data during training.
+The loss function used is categorical crossentropy, and the optimizer is Adam.
+Evaluation:
+
+The model is tested on the test dataset, and its accuracy is reported.
+Predictions for a subset of images are visualized along with the true labels.
+Result Visualization:
+
+Training and validation accuracy/loss curves are plotted to show the model's learning progress.
+A subset of images is displayed with predictions and actual labels.
+Python Tools Used
+TensorFlow/Keras:
+
+For building and training the deep learning model.
+Tools used:
+Sequential API: To define the CNN model.
+Conv2D: For applying convolutional filters.
+MaxPooling2D: For reducing spatial dimensions of feature maps.
+Dense: For the fully connected layers.
+Dropout: For regularization.
+NumPy:
+
+Used for numerical operations, such as processing and manipulating arrays.
+Matplotlib:
+
+For visualizing training progress (accuracy and loss curves).
+For displaying sample predictions along with actual labels.
+CIFAR-10 Dataset:
+
+A built-in dataset provided by TensorFlow/Keras, containing 10 image classes.
+Why These Tools Are Used
+TensorFlow/Keras is a powerful framework for implementing and training neural networks. It simplifies deep learning development with prebuilt layers and optimizers.
+NumPy is essential for efficient numerical computations required in deep learning.
+Matplotlib helps in understanding model performance through clear visualizations.
+
+
+
+
+
+
+
